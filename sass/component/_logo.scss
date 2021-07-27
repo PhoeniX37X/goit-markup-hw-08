@@ -1,0 +1,16 @@
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    color: #000000;
+    
+    &:hover {
+        color: #000000;
+    }
+        
+    &__decoration {
+        color: var(--hover-color);
+    }
+}
+

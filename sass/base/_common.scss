@@ -1,0 +1,42 @@
+
+body {
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+a {
+    text-decoration: none;
+}
+ul,
+li,
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-size: 36px;
+    line-height: 1.16;
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+h3 {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.title {
+    margin-bottom: 50px;
+}
