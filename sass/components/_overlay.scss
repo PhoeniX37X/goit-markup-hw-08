@@ -1,0 +1,32 @@
+.overlay {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 77px 24px;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background-color: rgba(33, 150, 243, 0.9);
+  transition: transform var(--main-transition-duration) var(--main-transition-function);
+
+  &__content {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.56;
+    color: var(--main-color-light);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .overlay {
+    padding-top: 49px;
+    padding-bottom: 49px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .overlay {
+    padding-top: 63px;
+    padding-bottom: 63px;
+  }
+}

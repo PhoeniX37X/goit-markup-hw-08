@@ -1,0 +1,34 @@
+.header {
+  border-bottom: 1px solid var(--header-color-border);
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__contacts {
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__container {
+    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-right: 27px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__container {
+    padding-top: 18px;
+    padding-bottom: 17px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header__container {
+    padding-top: 23px;
+    padding-bottom: 23px;
+  }
+}

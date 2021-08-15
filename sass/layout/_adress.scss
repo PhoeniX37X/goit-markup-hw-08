@@ -1,0 +1,38 @@
+.adress {
+  &__item:not(:last-child) {
+    margin-bottom: 8px;
+  }
+
+  &__link {
+    display: block;
+    margin-bottom: 8px;
+    font-style: normal;
+    line-height: 1.71;
+    color: var(--main-color-light);
+    transition: color var(--main-transition-duration) var(--main-transition-function);
+
+    &--mail,
+    &--tel {
+      color: var(--secondary-color-light-transp);
+    }
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .adress {
+    text-align-last: left;
+
+    &__item:not(:last-child) {
+      margin-bottom: 9px;
+    }
+
+    &__link {
+      margin-bottom: 9px;
+    }
+  }
+}

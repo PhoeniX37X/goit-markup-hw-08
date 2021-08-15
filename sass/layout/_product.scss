@@ -1,0 +1,32 @@
+.product {
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: var(--main-color-light);
+
+  &__container {
+    overflow: hidden;
+  }
+
+  &__description {
+    margin: 0;
+    padding: 20px 24px;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    text-align: left;
+  }
+
+  &__title {
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+  }
+
+  &__text {
+    font-size: var(--secondary-text-size);
+    line-height: 1.88;
+    color: var(--secondary-color-light);
+  }
+}

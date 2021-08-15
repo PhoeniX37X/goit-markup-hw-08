@@ -1,20 +1,20 @@
-.close-button{
-    position: absolute;
-    top:8px;
-    right: 8px;
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    border: 1px solid #0000001A;
-    background-color: transparent;
-    cursor: pointer;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// .close-button{
+//     position: absolute;
+//     top:8px;
+//     right: 8px;
+//     width: 30px;
+//     height: 30px;
+//     padding: 0;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     border-radius: 50%;
+//     border: 1px solid #0000001A;
+//     background-color: transparent;
+//     cursor: pointer;
+//     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover{
-        fill: var(--hover-color);
-    }
-}
+//     &:hover{
+//         fill: var(--hover-color);
+//     }
+// }

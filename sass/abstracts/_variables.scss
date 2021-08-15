@@ -1,0 +1,27 @@
+:root {
+  --font-logotype: 'Raleway', serif, sans-serif;
+  --main-font-regular: 'Roboto-main', serif, sans-serif;
+  --secondary-font-regular: 'Roboto-main500', serif, sans-serif;
+  --main-font-bold: 'Roboto-bold', serif, sans-serif;
+  --main-font-black: 'Roboto-black', serif, sans-serif;
+
+  --main-color-dark: #212121;
+  --main-color-light: #ffffff;
+  --secondary-color-dark: #000000;
+  --secondary-color-light: #757575;
+  --secondary-color-light-transp: rgba(255, 255, 255, 0.6);
+  --background-color-font: #c4c4c4;
+  --background-color-dark: #2f303a;
+  --background-color-light: #f5f4fa;
+  --accent-color: #2196f3;
+  --accent-color-hover: #188ce8;
+  --icon-color-fill: #afb1b8;
+  --header-color-border: #ececec;
+
+  --main-text-size: 14px;
+  --secondary-text-size: 16px;
+  --main-text-letter-spacing: 0.03em;
+
+  --main-transition-duration: 250ms;
+  --main-transition-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
